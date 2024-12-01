@@ -22,4 +22,17 @@ def calculate_difference(column1, column2):
 sum_of_diff = calculate_difference(column1, column2)
 
 print(sum_of_diff)
+
+########
+
+def calculate_similarity(column1, column2):
+    similarity_sum = 0
+    for num in column1:
+        count_in_col2 = column2.count(num) 
+        similarity_sum += num * count_in_col2 
+    return similarity_sum
+
+similarity = calculate_similarity(column1, column2)
+print(similarity)
+    
     
