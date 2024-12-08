@@ -1,4 +1,4 @@
-with open('example.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     lines = file.readlines()
     
 # Function to check if a row is strictly increasing or decreasing
